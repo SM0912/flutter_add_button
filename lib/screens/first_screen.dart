@@ -22,7 +22,7 @@ class FirstScreen extends StatelessWidget {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => SecondScreen()),
+                  MaterialPageRoute(builder: (context) => const SecondScreen()),
                 );
               },
               child: const Text('Go to Second Screen'),
